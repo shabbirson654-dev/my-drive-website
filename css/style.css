@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+
+body{
+    
+    margin: 0;
+    padding:0;
+    
+
+   
+    background-size: cover;
+
+    
+   
+}
+*:focus{
+
+    box-shadow:none !important;
+}
+.main-con{
+  margin-top: 100px;
+}
+.pass_con{
+    position: relative;
+}
+
+.pass_icon,.spin_icon{
+    position:absolute;
+
+    top:40px;
+    right:32px;
+
+}
+.email_con{
+    position: relative;
+}
+.email_icon,.check_icon,.cross_icon{
+     position:absolute;
+
+    top:43px;
+    right:30px;
+}
